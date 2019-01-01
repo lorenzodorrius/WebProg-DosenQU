@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {'/home_user', 'User@index'});
+
+Route::get('/', function () {'/login', 'User@login'});
+
+Route::get('/', function () {'/loginPost', 'User@loginPost'});
+
+Route::get('/', function () {'/register', 'User@register'});
+
+Route::get('/', function () {'/registerPost', 'User@registerPost'});
+
+Route::get('/', function () {'logout', 'User@logout'});
