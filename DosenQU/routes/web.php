@@ -21,4 +21,4 @@ Route::get('/register', 'User@register');
 
 Route::get('/registerPost', 'User@registerPost');
 
-Route::get('logout', 'User@logout');
+Route::get('/logout', 'User@logout');
