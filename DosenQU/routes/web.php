@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/', function () {'/home_user', 'User@index'});
+Route::get('/home_user', 'User@index');
 
-Route::get('/', function () {'/login', 'User@login'});
+Route::get('/login', 'User@login');
 
-Route::get('/', function () {'/loginPost', 'User@loginPost'});
+Route::get('/loginPost', 'User@loginPost');
 
-Route::get('/', function () {'/register', 'User@register'});
+Route::get('/register', 'User@register');
 
-Route::get('/', function () {'/registerPost', 'User@registerPost'});
+Route::get('/registerPost', 'User@registerPost');
 
-Route::get('/', function () {'logout', 'User@logout'});
+Route::get('logout', 'User@logout');
